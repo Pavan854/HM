@@ -1,16 +1,15 @@
 class plus{
-    public static void main(string[]args){
-        for( int i=0;i<6;i++){
-        for(int j=0;j<6;j++){
-            if(j==3 || i==3){
-                System.out.print("*");
-            
-            
+    public static void main(String[]args){
+        for( int i=0;i<7;i++){
+            for(int j=0;j<7;j++){
+                if(i==3||j==3){
+                    System.out.print("* ");
+                }
+                else{
+                    System.out.print(" ");
+                }
             }
-            else{
-                System.out.println("");
-            }
-        }
+            System.out.println();
         }
     }
 }
